@@ -1,0 +1,16 @@
+.new {
+    border-top-left-radius: 3px solid ;
+    position: relative;
+    height: 500px;
+    
+    margin-left: -3px;
+    top: 230px;
+  }
+  .vl {
+    border-left: 2px solid;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 40px;
+  }

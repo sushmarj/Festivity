@@ -1,0 +1,201 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.css';
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    width: 40px;
+    height: 40px;
+    padding: 10px 2px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.chatbox{
+  color: rgb(87, 26, 26);
+  /* background-color: #ee6e73; */
+  background-color:#1d2555;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: auto;
+  border-radius: 15px;
+  border-style: ridge;
+  line-height: 56px;
+}
+.brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 0;
+  margin-left:3%;
+}
+
+h1 {
+font-size: 2rem;
+line-height: 110%;
+margin: 2.8rem 0 1.68rem 0;
+}
+
+nav ul {
+margin-right:20px;
+
+}
+.msgarea{
+  min-height: 10px; 
+  max-height: 460px;
+  text-justify: auto;
+  width: 380px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20px;
+  margin-right: 20px; 
+
+}
+.msg_container{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px;
+  background-color: #82ccdd;
+  padding: 10px;
+  position: absolute;
+  text-justify: auto;
+  
+ 
+}
+.chatboxside{
+  min-height: 460px; 
+  max-height: 460px; 
+  width: 450px;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  right: 1px;
+  bottom: 0;
+  right: 0; 
+  background: lightslategray ;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+  
+}
+.box{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  width : 365px;
+  border-radius: 25px;
+  background-color: #ecf2f3;
+  padding: 10px;
+  position: relative;
+  text-justify: auto;
+}
+.msg_time{
+  color:darkgrey;
+  font-size: 9px;
+  text-align: right;
+}
+img.responsive-img, video.responsive-video {
+max-width: 120%;
+height: 50px;
+margin-top: 8px;
+margin-bottom: 8px;
+margin-left: 7px;
+margin-right: 7px;
+
+}
+.p1class{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-justify: auto;
+ 
+}
+/* .containermsg {
+width: 70%;
+margin-left:8px;
+} */
+
+input:checked + span {
+  background: rgb(136, 179, 192);
+  color: #fff;
+  box-sizing: border-box;
+}
+.btn2, .btn-large, .btn-small {
+text-decoration: none;
+text-justify: auto;
+color:#2B60DE;
+background-color: white;
+border:1px solid #2B60DE;
+border-radius: 25px;
+text-transform:initial;
+text-align: center;
+letter-spacing: .5px;
+transition: background-color .2s ease-out;
+cursor: pointer;
+}
+.right {
+  position: relative;
+  background: white;
+  text-justify: auto;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  float: right;
+  right: 20px;
+}
+
+.right::before {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: -1px;
+  right: -10px;
+  border: 10px solid transparent;
+  border-top: 10px solid #ccc;
+}
+
+.right::after {
+  content: '';
+  position: absolute;
+  visibility: visible;
+  top: 0px;
+  right: -8px;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+  clear: both;
+    
+}
+
+div{
+  clear: right;
+}
+
+.right img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+.sidenav {
+  width: 50px;
+  position: fixed;
+  z-index: 1;
+  top: 180px;
+  right: 20px;
+  background: black;
+  border-radius: 20px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+.sidenav1 {
+  width: 70px;
+  position: fixed;
+  z-index: 1;
+  top: 500px;
+  right: -8px;
+  background: black;
+  border-radius: 18px;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
