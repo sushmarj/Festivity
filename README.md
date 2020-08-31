@@ -1,5 +1,7 @@
 # Festivity
 
+### `React Application` 
+
 Create a webpage which contains Events, where user can register for an particular event there are two scenario that is one time user and subscribed user, both can register for an event. there is admin who can add events details and is also able to edit the events or delete the events. there is a chatbot for any help required for the customer related to event. 
 
 ## Installation and Launch
