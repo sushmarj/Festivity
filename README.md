@@ -7,6 +7,9 @@ Create a webpage which contains Events, where user can register for an particula
 To install the application clone this git repository from the above link.
 Go into the festivity-master.zip folder and Extract the whole content to festivity-master then open folder in editor and run below command on command prompt.
 
+### `npm i`
+
+To install node modules in the project which is used to run the compilation context for the project. After node modules is installed properly then it's good to go for execution the project.
 
 ### `npm run dev`
 
@@ -34,18 +37,18 @@ Screenshot of the User Interface.
 
 ### Skills used for this project
 
-React Js
-Express Js
-Node Js
-BootStrap
-CSS3
-MongoDB
+* React Js
+* Express Js
+* Node Js
+* BootStrap
+* CSS3
+* MongoDB
 
 ## Top Features
-Events details to register for any event
-Event creation, deletion and editiable.
-Authentication and authorisation.
-digital assistance to help the user with any query.
-Responsive webpages design        
-Fast loading.
-Creative stylish look.
+* Events details to register for any event
+* Event creation, deletion and editiable.
+* Authentication and authorisation.
+* Digital assistance to help the user with any query.
+* Responsive webpages design.        
+* Fast loading.
+* Creative stylish look.
