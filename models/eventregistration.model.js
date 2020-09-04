@@ -5,12 +5,6 @@ const eventregistrationSchema =mongoose.Schema({
         type:String,
         required:true
     },
-    lastname:{
-        type:String
-    },
-    eventregistered:{
-        type:String
-    },
     email:{
         type:String,
         required:true
@@ -25,15 +19,15 @@ const eventregistrationSchema =mongoose.Schema({
     },
     headcountchild:{
         type:Number
-        
+
     },
     headcountbaby:{
         type:Number
-        
+
     },
     eventid:{
         type:String
-       
+
     },
     veg:{
         type:Number
@@ -41,8 +35,11 @@ const eventregistrationSchema =mongoose.Schema({
     nonveg:{
         type:Number
     },
-    drinks:{ 
+    drinks:{
         type:Number
+    },
+    eventId: {
+        type: String
     }
 })
 const EventReg= module.exports= mongoose.model('EventReg', eventregistrationSchema);

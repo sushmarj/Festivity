@@ -1,8 +1,5 @@
 @import '../node_modules/bootstrap/dist/css/bootstrap.css';
 .btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 6px 0px;
     width: 40px;
     height: 40px;
     padding: 10px 2px;

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TableRow =(props)=> {
     return(
-        
+      
         <tr key={props._id}>
           
             <td>{props.eventname}</td>
@@ -25,7 +25,7 @@ const TableRow =(props)=> {
         <button onClick={()=>props.deleteEvent(props)}
          className="btn btn-xs btn-danger glyphicon glyphicon-remove-circle">  Delete&nbsp; </button> </td>
         </tr>
-        
+       
     )
 }
 

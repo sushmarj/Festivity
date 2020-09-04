@@ -11,9 +11,12 @@ const ListofEvent=(props)=> {
     }
     
         return(
-            <div >
-            <h2 className="col-md-offset-4"><span style={{fontsize:'100px'}}>&#127881;</span> Make change to Event <span style={{fontsize:'100px'}}>&#127882;</span></h2>
-            <table className="table table-bordered table-striped">
+            
+            <table  >
+                <div className="container-fluid" width="100%">
+                <div className="well">
+            <h2 className="text-center"><span style={{fontsize:'100px'}}>&#127881;</span> Make change to Event <span style={{fontsize:'100px'}}>&#127882;</span></h2>
+              <div className="table table-bordered table-striped">
                 <Thead />
                
                 <tbody style={{background:'lightgrey'}}>
@@ -36,8 +39,10 @@ const ListofEvent=(props)=> {
                     editClick={editClick} /> )}
                   
                 </tbody>
-            </table>
+                </div>
             </div>
+            </div>
+            </table>
         )
 }
 

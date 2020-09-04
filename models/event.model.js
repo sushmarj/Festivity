@@ -7,16 +7,13 @@ const eventSchema =mongoose.Schema({
     start:{
         type:String
     },
-    end:{
-        type:String
-    },
     startt:{
         type:String
     },
-    endt:{
+    end:{
         type:String
     },
-    eventcreated:{
+    endt:{
         type:String
     },
     image:{
@@ -44,9 +41,15 @@ const eventSchema =mongoose.Schema({
     startbook:{
         type:String
     },
-    endbook:{
+    startbookt:{
         type:String
     },
+    endbook:{
+      type:String
+    },
+    endbookt:{
+        type:String
+      },
     description:{
         type:String
         

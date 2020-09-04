@@ -35,8 +35,7 @@ router.post('/',async(req,res)=>{
         start:req.body.start,
         end:req.body.end,
         startt:req.body.startt,
-        endt:req.body.endt,
-        eventcreated:req.body.eventcreated,
+        endt:req.body.endt,
         image:req.body.image,
         location:req.body.location,
         adultprice:req.body.adultprice,
@@ -46,6 +45,7 @@ router.post('/',async(req,res)=>{
         drinksprice:req.body.drinksprice, 
         startbook:req.body.startbook,
         endbook:req.body.endbook,
+        
         description:req.body.description
         });
         newTask.save((err,result)=>{
@@ -57,10 +57,10 @@ router.put('/:_id', (req, res)=>{
     event.findByIdAndUpdate({_id:req.params._id}, {$set:{
         eventname:req.body.eventname,
         start:req.body.start,
+        
         end:req.body.end,
         startt:req.body.startt,
-        endt:req.body.endt,
-        eventcreated:req.body.eventcreated,
+        endt:req.body.endt,
         image:req.body.image,
         location:req.body.location,
         adultprice:req.body.adultprice,
@@ -68,8 +68,9 @@ router.put('/:_id', (req, res)=>{
         vegprice:req.body.vegprice,
         nonvegprice:req.body.nonvegprice,
         drinksprice:req.body.drinksprice, 
-        startbook:req.body.startbook,
+        startbook:req.body.startbook, 
         endbook:req.body.endbook,
+       
         description:req.body.description
 
     }}, 

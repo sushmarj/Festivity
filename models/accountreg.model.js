@@ -3,7 +3,7 @@ const mongoose =require("mongoose");
 const accountregSchema =mongoose.Schema({
     username:{
         type:String
-        
+
     },
     password:{
         type:String,
@@ -13,7 +13,7 @@ const accountregSchema =mongoose.Schema({
         type:String,
         required:true,
         unique:true
-        
+
     },
     gender:{
         type:String,
@@ -23,8 +23,9 @@ const accountregSchema =mongoose.Schema({
         type:Number,
         required:true
     },
-   role:{
-       type:String
-   }
+    role:{
+        type:String,
+    }
+
 })
 const Accountreg= module.exports= mongoose.model('Accountreg', accountregSchema);

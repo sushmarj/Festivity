@@ -20,6 +20,8 @@ import termsandCondn2 from './components/Event/termsandcondn/termsandcondn2';
 import About from './components/pages/About';
 import Needhelp from './components/pages/Needhelp';
 import Footer from './components/layout/footer';
+import Chat from './components/layout/Chatbot/Chat';
+
 
 
 class App extends Component {
@@ -48,9 +50,10 @@ class App extends Component {
            <Route exact path="/about" component={About} />
            <Route exact path="/help" component={Needhelp} />
            <Route exact path="/register" component={Register} />
-           
+          
          </Switch>
          </div>
+         <Chat/>
        <Footer/>
      </Router>
    
