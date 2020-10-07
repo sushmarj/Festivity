@@ -23,7 +23,7 @@ class Footer extends Component {
                    
            <div className="footer-copyright text-center py-3" style={{color:'purple'}}>
             © 2020 Copyright:
-       <b><a className="copyright" href="https://www.capgemini.com/"> capgemini.com</a></b>
+       <b><a className="copyright" href="https://www.festivity.com/"> festivity.com</a></b>
        </div>
       </footer>
       </div> );
